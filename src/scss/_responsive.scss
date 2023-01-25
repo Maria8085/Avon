@@ -1,0 +1,465 @@
+@include breakpoint('M') {
+    .tmpl_hh_faith {
+        padding: 94px 51px 0;
+
+        .tmpl_hh_titleColor {
+            left: 120px;
+        }
+
+        .tmpl_hh_faithSlider {
+            margin: 0;
+
+            .swiper-wrapper {
+                padding: 0 69px;
+
+                .swiper-slide {
+                    gap: 5px;
+
+
+                    .tmpl_hh_faithSlide {
+                        width: 226px;
+
+                        .tmpl_hh__slideImg {
+                            overflow: hidden;
+                            width: 226px;
+                            height: 159px;
+                        }
+
+                        .tmpl_hh__slideTextWrap {
+                            width: 226px;
+                        }
+
+                        &.tmpl_hh_faithSlide--4 {
+                            margin-top: 127px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .tmpl_hh_want {
+        padding: 39px 120px 40px;
+
+        .tmpl_hh_cloud {
+            padding: 34px 44px;
+        }
+    }
+
+    .tmpl_hh_infographiks {
+        margin: 39px 120px 55px;
+        height: 665px;
+
+        .tmpl_hh_infoCard.tmpl_hh_infoCard--card2 {
+            left: 41%;
+            top: 208px;
+            transform: translateX(-45%);
+        }
+
+        .tmpl_hh_infoCard.tmpl_hh_infoCard--card4 {
+            bottom: 8px;
+        }
+
+        .tmpl_hh_infoCard.tmpl_hh_infoCard--card5 {
+            right: 74px;
+        }
+
+        .tmpl_hh_infoCard.tmpl_hh_infoCard--card3 .tmpl_hh_cardNumberWrap .tmpl_hh_cardNumber100 {
+            left: -214px;
+        }
+
+        .tmpl_hh_cardNumber40 {
+            right: -33px;
+        }
+    }
+
+    .tmpl_hh_buttons {
+        padding: 56px 120px 42px;
+    }
+
+    .tmpl_hh_benefits {
+        padding: 76px 51px 19px 123px;
+    }
+
+    .tmpl_hh_conditions {
+        padding: 46px 120px 25px;
+
+        .tmpl_hh_titleColor {
+            width: 74.11%;
+        }
+
+        .tmpl_hh_conditionsList {
+            gap: 10px;
+
+            .tmpl_hh_conditionsCard {
+                flex-basis: calc(33% - 7px);
+                flex-shrink: 0;
+
+                .tmpl_hh__cardImgWrap {
+                    max-width: 250px;
+                }
+            }
+        }
+    }
+
+    .tmpl_hh_footer {
+        padding: 25px 124px 0 141px;
+    }
+
+    .tmpl_hh_benefitsSlider {
+
+        .swiper-wrapper {
+            padding-right: 69px;
+
+            .swiper-slide {
+                gap: 10px;
+
+                .tmpl_hh_benefitsSlide {
+                    width: 229px;
+
+                    .tmpl_hh__slideImg {
+                        width: 229px;
+                        height: 266px;
+                    }
+
+                    .tmpl_hh__slideTextWrap {
+                        width: 229px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint('S') {
+    .tmpl_hh_wrapper {
+        background-position: 70% 8%, -40% -9%, -40% 62%;
+        background-size: 1000px auto, 1000px auto, 1000px auto;
+    }
+
+    .tmpl_hh_titleColor {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .tmpl_hh_header {
+        background-image: unset;
+        padding: 0px;
+        height: unset;
+
+        .tmpl_hh_logoWrapper {
+            width: 100%;
+            height: unset;
+            padding: 0;
+            padding-bottom: 45%;
+            position: relative;
+            background-image: image-set(url("https://hhcdn.ru/ichameleon/267322.jpg") 1x, url("https://hhcdn.ru/ichameleon/267323.jpg") 2x);
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 20px;
+
+            .tmpl_hh__logo {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 69.3%;
+                    margin: 0;
+                }
+            }
+        }
+
+        .tmpl_hh__title {
+            font-size: 16px;
+            line-height: 127.5%;
+            color: #000000;
+            width: 75.17%;
+        }
+
+        .tmpl_hh__text {
+            font-size: 12px;
+            line-height: 140%;
+            color: #000000;
+            width: 75.17%;
+            margin-bottom: 7px;
+        }
+    }
+
+    .tmpl_hh_faith {
+        padding: 30px 0 0;
+
+        .tmpl_hh_titleColor {
+            position: unset;
+            margin-bottom: 21px;
+            padding-left: 12px;
+            width: unset;
+        }
+    }
+
+    .tmpl_hh_want {
+        flex-direction: column;
+        padding: 46px 0 29px;
+
+        .tmpl_hh_textWrap {
+            padding: 0 12px 90px;
+
+            .tmpl_hh_continue {
+                font-size: 16px;
+                line-height: 140%;
+                width: 100%;
+            }
+        }
+
+        .tmpl_hh_cloud {
+            width: 290px;
+            padding: 34px;
+            height: unset;
+            text-align: center;
+            align-self: center;
+
+            .tmpl_hh_text {
+                font-size: 16px;
+                line-height: 140%;
+            }
+        }
+
+        .tmpl_hh__powder {
+            width: 500px;
+            height: 230px;
+            top: 0%;
+            right: 38%;
+            transform: translateX(38%);
+        }
+    }
+
+    .tmpl_hh_infographiks {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 29px;
+        align-items: center;
+
+        .tmpl_hh_infoCard {
+            position: unset;
+
+            &.tmpl_hh_infoCard--card5 {
+                height: 179px;
+                background-position: -11px 95px;
+            }
+
+            &.tmpl_hh_infoCard--card3 {
+                margin-top: 8px;
+
+                .tmpl_hh_cardNumberWrap .tmpl_hh_cardNumber100 {
+                    width: 243px;
+                    height: 368px;
+                    position: absolute;
+                    top: -77px;
+                    left: -28px;
+                }
+            }
+
+            &.tmpl_hh_infoCard--card2 {
+                transform: translateX(0);
+            }
+        }
+
+        .tmpl_hh_cardNumber40 {
+            width: 243px;
+            height: 230px;
+            bottom: -22px;
+            right: 55%;
+            transform: translateX(55%);
+        }
+    }
+
+    .tmpl_hh_buttons {
+        flex-direction: column;
+        padding: 43px 0 46px;
+        gap: 17px;
+
+        .tmpl_hh_button {
+            margin: 0 auto;
+        }
+    }
+
+    .tmpl_hh_benefits {
+        padding: 19px 0;
+
+        .tmpl_hh__background {
+            width: 160%;
+        }
+
+        .tmpl_hh__title {
+            font-size: 25px;
+            line-height: 119%;
+            position: relative;
+            margin-bottom: 15px;
+            margin-left: 13px;
+        }
+    }
+
+    .tmpl_hh_conditions {
+        padding: 46px 15px 25px;
+
+        .tmpl_hh_titleColor {
+            margin-bottom: 63px;
+            width: 62.06%;
+        }
+
+        .tmpl_hh_conditionsList {
+            flex-direction: column;
+            gap: 53px;
+
+            .tmpl_hh_conditionsCard {
+                align-items: center;
+                gap: 25px;
+            }
+        }
+
+        .tmpl_hh__powders {
+            right: -38px;
+            top: -6px;
+            width: 204px;
+        }
+    }
+
+
+
+    .tmpl_hh_footer {
+        padding: 25px 15px 0;
+
+        .tmpl_hh_videoWrap {
+            margin-bottom: 35px;
+        }
+
+        .tmpl_hh_note {
+            font-size: 13px;
+            line-height: 22px;
+        }
+    }
+
+    .tmpl_hh_faith {
+        .tmpl_hh_faithSlider {
+            height: 376px;
+
+            .swiper-wrapper {
+                height: auto;
+                padding: 0;
+
+                .swiper-slide {
+                    position: unset;
+
+                    .tmpl_hh_faithSlide {
+                        margin: 0 auto;
+                        width: 265px;
+
+                        .tmpl_hh__slideImg {
+                            overflow: hidden;
+                            width: 265px;
+                            height: 187px;
+                        }
+
+                        .tmpl_hh__slideTextWrap {
+                            width: 265px;
+                        }
+
+                        &.tmpl_hh_faithSlide--4 {
+                            margin-top: 0;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    .tmpl_hh_benefitsSlider {
+        height: auto;
+
+        .swiper-wrapper {
+            .swiper-slide {
+                .tmpl_hh_benefitsSlide {
+                    width: 290px;
+                    border-radius: 22.6703px;
+
+                    .tmpl_hh__slideImg {
+                        width: 290px;
+                        height: 331px;
+                    }
+
+                    .tmpl_hh__slideTextWrap {
+                        width: 290px;
+                    }
+
+                    &--1,
+                    &--4,
+                    &--2,
+                    &--5 {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .tmpl_hh_benefitsSliderContainer {
+        .swiper-wrapper {
+            .tmpl_hh_slide {
+
+                &--1,
+                &--2 {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+
+    .tmpl_hh_swiper-scrollbarFaith,
+    .tmpl_hh_swiper-scrollbarBenefits {
+
+        &.swiper-scrollbar {
+            height: 6px;
+            width: 99px;
+            top: 0;
+            bottom: 0;
+
+            left: 0;
+            right: 0;
+
+            position: relative;
+            margin: 26px auto 8px;
+
+
+            .swiper-scrollbar-drag {
+                cursor: pointer;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@include breakpoint('XS') {
+    .tmpl_hh_want {
+
+        .tmpl_hh__powder {
+            top: 11%;
+        }
+    }
+
+    .tmpl_hh_benefits .tmpl_hh__background .tmpl_hh__backgroundImg {
+        width: 105%;
+    }
+
+    .tmpl_hh_conditions .tmpl_hh_titleColor {
+        width: 70.06%;
+    }
+}

@@ -1,0 +1,698 @@
+.tmpl_hh_wrapper {
+    font-family: ProximaNovaCond, 'Proxima Nova Condensed', 'Arial', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    background-image: url("https://hhcdn.ru/ichameleon/267832.png"), url("https://hhcdn.ru/ichameleon/267832.png"), url("https://hhcdn.ru/ichameleon/267832.png");
+    background-repeat: no-repeat;
+    background-position: 145% 15%, -40% -9%, -40% 62%;
+    background-size: 2345px auto, 2345px auto, 2345px auto;
+    z-index: 1;
+
+    * {
+        box-sizing: border-box;
+    }
+}
+
+.tmpl_hh_titleColor {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    background: linear-gradient(91.27deg, #8626AF 0.45%, #B83691 105.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+}
+
+.tmpl_hh_header {
+    width: 100%;
+    height: 561px;
+    background-image: image-set(url("https://hhcdn.ru/ichameleon/267322.jpg") 1x, url("https://hhcdn.ru/ichameleon/267323.jpg") 2x);
+    background-position: center;
+    background-size: cover;
+    padding: 118px 0 78px;
+
+    .tmpl_hh_logoWrapper {
+        width: 100%;
+    }
+
+    .tmpl_hh__logo {
+        width: 684px;
+        height: 151px;
+        margin: 0 auto 64px;
+
+        .tmpl_hh__logoImg {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .tmpl_hh__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 116%;
+        margin: 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 11px;
+        width: 627px;
+    }
+
+    .tmpl_hh__text {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        margin: 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+        width: 400px;
+    }
+}
+
+.tmpl_hh_faith {
+    padding: 94px 69px 0;
+    position: relative;
+    z-index: 5;
+
+    .tmpl_hh_titleColor {
+        position: absolute;
+        left: 160px;
+        top: 107px;
+        width: 29.08%;
+    }
+}
+
+.tmpl_hh_want {
+    padding: 39px 160px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .tmpl_hh_textWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        z-index: 2;
+
+        .tmpl_hh_titleColor {
+            margin-bottom: 5px;
+            width: 233px;
+        }
+
+        .tmpl_hh_continue {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 118.8%;
+            text-align: start;
+            max-width: 410px;
+            text-transform: uppercase;
+            color: #2E3663;
+        }
+    }
+
+    .tmpl_hh_cloud {
+        width: 455px;
+        height: 268px;
+        background: #FFFFFF;
+        box-shadow: -25px 10px 43px rgba(185, 205, 224, 0.25);
+        border-radius: 33px;
+        padding: 54px 64px;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+
+        .tmpl_hh_text {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+            color: #2E3663;
+        }
+    }
+
+    .tmpl_hh__powder {
+        z-index: 1;
+        position: absolute;
+        width: 609px;
+        height: 578px;
+        top: -264px;
+        right: 44%;
+        transform: translateX(44%);
+
+        .tmpl_hh__powderImg {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}
+
+.tmpl_hh_infographiks {
+    margin: 39px 160px 55px;
+    position: relative;
+    height: 631px;
+
+    .tmpl_hh_infoCard {
+        width: 285px;
+        height: 254px;
+        background: #FFFFFF;
+        box-shadow: -15.6593px 6.26374px 26.9341px rgba(185, 205, 224, 0.25);
+        border-radius: 20.6703px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        z-index: 1;
+        position: absolute;
+
+        .tmpl_hh__cardValue {
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 67px;
+            color: #2E3663;
+        }
+
+        .tmpl_hh__cardPostscript {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #2E3663;
+        }
+
+        .tmpl_hh__cardText {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #2E3663;
+        }
+
+        &.tmpl_hh_infoCard--card1 {
+            top: 0;
+            left: 3px;
+            padding: 39px 22px 53px 46px;
+            background-image: image-set(url(https://hhcdn.ru/ichameleon/267324.png) 1x, url(https://hhcdn.ru/ichameleon/267325.png) 2x);
+            background-repeat: no-repeat;
+            background-position: -42px -22px;
+            background-size: 228px 230px;
+
+            .tmpl_hh__cardValue {
+                font-size: 90.3875px;
+                line-height: 110px;
+            }
+
+            .tmpl_hh__cardPostscript,
+            .tmpl_hh__cardText {
+                margin-left: 3px;
+            }
+        }
+
+        &.tmpl_hh_infoCard--card2 {
+            top: 161px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            padding: 39px 22px 51px 45px;
+            background-image: image-set(url(https://hhcdn.ru/ichameleon/267324.png) 1x, url(https://hhcdn.ru/ichameleon/267325.png) 2x);
+            background-repeat: no-repeat;
+            background-position: 53px -41px;
+            background-size: 168px 169px;
+
+            .tmpl_hh__cardPostscript,
+            .tmpl_hh__cardText {
+                margin-left: 4px;
+            }
+        }
+
+        &.tmpl_hh_infoCard--card3 {
+            top: 73px;
+            right: 0;
+            padding: 39px 22px 79px 39px;
+            background-image: image-set(url(https://hhcdn.ru/ichameleon/267324.png) 1x, url(https://hhcdn.ru/ichameleon/267325.png) 2x);
+            background-repeat: no-repeat;
+            background-position: 153px 85px;
+            background-size: 168px 169px;
+
+            .tmpl_hh_cardNumberWrap {
+                width: 100%;
+                height: 100%;
+                position: relative;
+
+                .tmpl_hh_cardNumber100 {
+                    width: 574px;
+                    height: 368px;
+                    position: absolute;
+                    top: -215px;
+                    left: -315px;
+
+                    .tmpl_hh_cardNumberImg {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        &.tmpl_hh_infoCard--card4 {
+            bottom: 61px;
+            left: 2px;
+            height: auto;
+            padding: 42px 28px 48px 38px;
+        }
+
+        &.tmpl_hh_infoCard--card5 {
+            bottom: 0;
+            right: 195px;
+            padding: 39px 22px 32px 47px;
+            background-image: image-set(url(https://hhcdn.ru/ichameleon/267324.png) 1x, url(https://hhcdn.ru/ichameleon/267325.png) 2x);
+            background-repeat: no-repeat;
+            background-position: -11px 170px;
+            background-size: 221px 222px;
+        }
+    }
+
+    .tmpl_hh_cardNumber40 {
+        width: 396px;
+        height: 230px;
+        position: absolute;
+        bottom: 46px;
+        right: 89px;
+        z-index: 3;
+
+        .tmpl_hh_cardNumberImg {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}
+
+.tmpl_hh_buttons {
+    padding: 56px 160px 42px;
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+
+    .tmpl_hh_button {
+        background: #FFFFFF;
+        box-shadow: -2.61538px 7.84615px 36.6154px rgba(185, 205, 224, 0.44);
+        border-radius: 65.3846px;
+        padding: 10px 49px;
+        display: inline-block;
+        cursor: pointer;
+        transition: transform 0.15s ease-out;
+
+        .tmpl_hh_buttonText {
+            font-weight: 400;
+            font-size: 20.9231px;
+            line-height: 33px;
+            display: inline-block;
+            background: linear-gradient(95.09deg, #7A03CE 2.78%, #D82691 84.63%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+        &:hover {
+            background: linear-gradient(90.31deg, #7F05CB 6.15%, #D82691 99.94%);
+            box-shadow: -2.61538px 7.84615px 36.6154px rgba(185, 205, 224, 0.44);
+            border-radius: 65.3846px;
+
+            .tmpl_hh_buttonText {
+                background: linear-gradient(#FFFFFF 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}
+
+.tmpl_hh_benefits {
+    padding: 76px 70px 19px 163px;
+    position: relative;
+    overflow: hidden;
+
+    .tmpl_hh__background {
+        position: absolute;
+        height: 510px;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+        .tmpl_hh__backgroundImg {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .tmpl_hh__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        color: #FFFFFF;
+        max-width: 513px;
+        z-index: 2;
+        position: absolute;
+        margin: 0;
+    }
+}
+
+.tmpl_hh_conditions {
+    padding: 46px 160px 25px;
+    position: relative;
+
+    .tmpl_hh_titleColor {
+        margin-bottom: 78px;
+    }
+
+    .tmpl_hh_conditionsList {
+        display: flex;
+        justify-content: space-between;
+        gap: 87px;
+        position: relative;
+        z-index: 3;
+
+        .tmpl_hh_conditionsCard {
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            align-items: center;
+
+            .tmpl_hh__cardImgWrap {
+                width: 250px;
+                height: 170px;
+                display: flex;
+                justify-content: center;
+
+                .tmpl_hh__cardImg {
+                    object-fit: contain;
+                    margin-top: auto;
+                    width: unset;
+                }
+            }
+
+            .tmpl_hh_cartText {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 25px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #2E3663;
+                width: 217px;
+            }
+        }
+    }
+
+    .tmpl_hh__powders {
+        position: absolute;
+        right: -178px;
+        top: -290px;
+        z-index: 2;
+        pointer-events: none;
+    }
+}
+
+.tmpl_hh_footer {
+    padding: 25px 164px 0 181px;
+    display: flex;
+    flex-direction: column;
+
+    .tmpl_hh_video {
+        margin-bottom: 55px;
+        width: 100%;
+        max-width: 905px;
+        height: unset;
+        padding-bottom: 56.35%;
+        position: relative;
+        cursor: pointer;
+
+        .tmpl_hh_video__content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border: none;
+        }
+
+        .tmpl_hh_videoButton {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 135px;
+            height: 135px;
+            border: none;
+            background-color: transparent;
+        }
+
+        .tmpl_hh_video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+    }
+
+    .tmpl_hh_note {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.085em;
+        color: rgba(0, 0, 0, 0.24);
+    }
+}
+
+.tmpl_hh_faithSlider {
+    height: 550px;
+    margin-left: 93px;
+
+    .swiper-wrapper {
+        .swiper-slide {
+            .tmpl_hh_faithSlide {
+                background: #FFFFFF;
+                box-shadow: -25px 10px 43px rgba(185, 205, 224, 0.25);
+                border-radius: 33px;
+                width: 265px;
+
+
+                .tmpl_hh__slideImg {
+                    overflow: hidden;
+                    width: 265px;
+                    height: auto;
+                    border-radius: 33px;
+                    background-color: #2E3663;
+
+                    .tmpl_hh_faithImg {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+
+                .tmpl_hh__slideTextWrap {
+                    padding: 21px 24px 33px;
+                    min-height: 121px;
+
+                    .tmpl_hh__slideTitle {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-transform: uppercase;
+                        color: #2E3663;
+                    }
+
+                    .tmpl_hh__slideText {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tmpl_hh_faithRow {
+
+
+    &--1 {
+        padding-left: 15%;
+    }
+}
+
+.tmpl_hh_faithSlide {
+    width: 265px;
+
+    &--1 {
+        margin-top: 127px;
+    }
+
+    &--2 {}
+
+    &--3 {
+        margin-top: 94px;
+    }
+
+    &--4 {
+        margin-top: 108px;
+
+    }
+
+    &--5 {
+        margin-left: 30px;
+        margin-top: 172px;
+    }
+}
+
+.tmpl_hh_slider {
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+
+
+    }
+
+
+
+}
+
+.tmpl_hh_benefitsSliderContainer {
+    .swiper-wrapper {
+        .tmpl_hh_slide {
+            &--1 {
+                justify-content: space-between;
+            }
+
+            &--2 {
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+.tmpl_hh_hidden_slides {
+    display: none !important;
+}
+
+.tmpl_hh_benefitsSlider {
+    height: 711px;
+    position: relative;
+    z-index: 1;
+
+    .swiper-wrapper {
+        gap: 0px;
+        padding-right: 68px;
+
+        .swiper-slide {
+            padding: 0;
+
+            .tmpl_hh_benefitsSlide {
+                background: #ffffff;
+                border-radius: 20.6703px;
+                width: 285px;
+
+                .tmpl_hh__slideImg {
+                    overflow: hidden;
+                    width: 285px;
+                    height: auto;
+                    border-radius: 20.6703px;
+
+                    .tmpl_hh_benefitsImg {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+
+                .tmpl_hh__slideTextWrap {
+                    padding: 35px 20px 20px 32px;
+                    min-height: 121px;
+                    width: 285px;
+
+                    .tmpl_hh__slideTitle {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-transform: uppercase;
+                        color: #2E3663;
+                    }
+
+                    .tmpl_hh__slideText {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24.32px;
+                        color: #000000;
+                    }
+                }
+
+                &--1,
+                &--4 {
+                    margin-top: 194px;
+                }
+
+                &--2,
+                &--5 {
+                    margin-top: 104px;
+                }
+            }
+        }
+    }
+}
+
+.tmpl_hh_swiper-scrollbarFaith,
+.tmpl_hh_swiper-scrollbarBenefits {
+
+    &.swiper-scrollbar {
+        height: 99px;
+        top: 118px;
+        right: 0;
+
+        .swiper-scrollbar-drag {
+            cursor: pointer;
+        }
+    }
+
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 69px;
+    top: 206px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(161, 184, 206, 0.25);
+    border-radius: 13px;
+
+    .swiper-scrollbar-drag {
+        background: linear-gradient(180deg, #E22732 0%, #E63279 100%);
+        box-shadow: -25px 10px 43px rgba(185, 205, 224, 0.25);
+        border-radius: 13px;
+        width: 100%;
+    }
+
+    .tmpl_hh_swiper-drag {
+        margin: 0;
+        background: linear-gradient(180deg, #E22732 0%, #E63279 100%);
+        box-shadow: -25px 10px 43px rgba(185, 205, 224, 0.25);
+        border-radius: 13px;
+        width: 6px;
+        height: 35px;
+        transition: transform 0.3s ease-out;
+        transform: translateY(0px);
+        padding: 0px;
+
+        &.bottom {
+            transform: translateY(74px);
+        }
+    }
+}
+
+.tmpl_hh_swiper-scrollbarBenefits {
+    right: -68px;
+    top: 196px;
+}
